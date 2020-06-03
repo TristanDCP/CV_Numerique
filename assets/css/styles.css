@@ -1,7 +1,9 @@
 /* PARALLAX HEADER */
 body,
-html {
+html,
+.introduction {
     height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .headerparallax {
@@ -31,13 +33,17 @@ ul li {
 /* MES PROJETS */
 
 .pastprojects{
-  background-color: #3B8EA5;
+  background-color: #92DCE5;
 }
 
+/* COMPETENCES */
+.abilities{
+  background-color: #EEE5E9;
+}
 /* CV */
 
 .cvdownload{
-  background-color: #D0CA70;
+  background-color: #7C7C7C;
 }
 
 /* FORM FOOTER */
@@ -55,6 +61,7 @@ ul li {
 
 #descriptiontext{
   text-align: center;
+  margin-bottom: 0;
 }
   @media only screen and (max-device-width: 1366px) {
     .headerparallax {
