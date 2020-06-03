@@ -1,7 +1,63 @@
 /* PARALLAX HEADER */
-
-#headerparallax {
-    background: url(assets/img/headerparallax.jpg) center 0 no-repeat fixed;
-    min-height: 300px;
-    box-shadow: 0px 1px 0px 0px black inset;
+body,
+html {
+    height: 100%;
 }
+
+.headerparallax {
+  background: url(/../assets/img/headerparallax.jpg) center 0 no-repeat fixed;
+
+}
+
+header img{
+  width: 100%;
+}
+ul li {
+    list-style-type: none;
+    display: table-cell;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.titles{
+  text-align: center;
+}
+/* PROFIL */
+
+.profile{
+  background-color: #52DEE5;
+}
+
+/* MES PROJETS */
+
+.pastprojects{
+  background-color: #3B8EA5;
+}
+
+/* CV */
+
+.cvdownload{
+  background-color: #D0CA70;
+}
+
+/* FORM FOOTER */
+.contacts{
+  background-color: #2A2A2E;
+  color: white;
+}
+
+.bigtext{
+  font-size: 2rem;
+}
+#introduction{
+  text-align: center;
+}
+
+#descriptiontext{
+  text-align: center;
+}
+  @media only screen and (max-device-width: 1366px) {
+    .headerparallax {
+      background-attachment: scroll;
+    }
+  }
